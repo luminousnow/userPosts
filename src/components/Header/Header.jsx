@@ -4,7 +4,9 @@ import styles from './Header.module.css';
 export function Header(params) {
   return (
     <header className={styles.header}>
-      <a className={styles.logo} href="http://">Lorem ipsum</a>
+      <a className={styles.logo} href="/">
+        Lorem ipsum
+      </a>
       <input className={styles.search} type="text" placeholder="Search" />
     </header>
   );
