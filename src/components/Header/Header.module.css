@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.search {
+  width: 248px;
+  min-height: 70px;
+  padding: 20px 35px;
+
+  background: #333348;
+  border: none;
+  border-radius: 40px;
+}
