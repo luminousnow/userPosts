@@ -1,0 +1,50 @@
+.main {
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 860px;
+  margin: 0 auto;
+}
+
+.userList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: -10px;
+}
+
+.userCard {
+  width: calc((100% / 2) - 20px);
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 75px;
+
+  text-align: center;
+  background: #333348;
+  border-radius: 40px;
+}
+
+.userButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 248px;
+  min-height: 70px;
+  padding: 20px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #eeeeee;
+  background: #52519d;
+
+  border-radius: 40px;
+  text-decoration: none;
+}
