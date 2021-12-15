@@ -1,6 +1,7 @@
 import { array, bool, number } from 'prop-types';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Route, Routes } from 'react-router-dom';
 import styles from './Main.module.css';
+import { PostPage } from '../../Views/PostPage/PostPage';
 
 export function Main(params) {
   return (
@@ -73,6 +74,13 @@ export function Main(params) {
           </li>
         </ul>
       </div>
+
+      <Routes>
+        <Route path="/user-1" element={<PostPage />} />
+        <Route path="/user-2" element={`hi! post 2`} />
+        <Route path="/user-3" element={`hi! post 3`} />
+        <Route path="/user-4" element={`hi! post 4`} />
+      </Routes>
     </main>
   );
 }
